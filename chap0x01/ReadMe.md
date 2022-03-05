@@ -1,6 +1,6 @@
 # H1
 
-全程录屏：[https://www.bilibili.com/video/BV12U4y1f7Cc/](https://www.bilibili.com/video/BV12U4y1f7Cc/)
+全程录屏解说：[https://www.bilibili.com/video/BV12U4y1f7Cc/](https://www.bilibili.com/video/BV12U4y1f7Cc/)
 
 ## 当前 Linux 发行版基本信息
 
