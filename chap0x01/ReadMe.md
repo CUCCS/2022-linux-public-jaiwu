@@ -2,6 +2,10 @@
 
 全程录屏解说：[https://www.bilibili.com/video/BV12U4y1f7Cc/](https://www.bilibili.com/video/BV12U4y1f7Cc/)
 
+<html>
+<iframe src="//player.bilibili.com/player.html?aid=682097098&bvid=BV12U4y1f7Cc&cid=541948691&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</html>
+
 ## 当前 Linux 发行版基本信息
 
 ```bash
@@ -58,7 +62,7 @@ network:
 
 装桌面环境，用`NetworkManager`
 
-## **使用 scp 在「虚拟机和宿主机之间」、「本机和远程 Linux 系统之间」传输文件**
+## **使用 scp 在「虚拟机和宿主机之间」、「本机和远程 Linux 系统之间」传输文件**
 
 将宿主机的`C:\Users\lenovo\Desktop\新建文件夹 (2)\test.txt`传到`/home/ubuntu/Desktop`目录下，虚拟机的ip为`192.168.67.129`。
 
