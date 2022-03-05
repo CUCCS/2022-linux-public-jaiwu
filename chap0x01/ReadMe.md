@@ -2,8 +2,6 @@
 
 全程录屏解说：[https://www.bilibili.com/video/BV12U4y1f7Cc/](https://www.bilibili.com/video/BV12U4y1f7Cc/)
 
-<iframe src="//player.bilibili.com/player.html?aid=682097098&bvid=BV12U4y1f7Cc&cid=541948691&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
 ## 当前 Linux 发行版基本信息
 
 ```bash
