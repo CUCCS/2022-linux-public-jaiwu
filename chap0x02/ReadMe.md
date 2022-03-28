@@ -61,9 +61,9 @@
 
 也就是我们在虚拟机里面把刚刚复制的命令粘贴之后就会开始自动安装。
 
-![vmware_fc3ek6RgBk.jpg](img/ubuntu_add_repository.jpg)
+![vmware_fc3ek6RgBk.jpg](img/ubuntu_add_repository.png)
 
-没看到安装的这个过程出错了，我们尝试更新一下源，然后再继续进行。
+看到安装的这个过程出错了，我们尝试更新一下源，然后再继续进行。
 
 ![vmware_jKsaU50uTK.png](img/ubuntu_install_error.png)
 
@@ -108,7 +108,7 @@ asciinema rec
 
 猜测可能是因为，终端窗口是全屏的原因，所以我们可以把窗口缩小之后再试一下。
 
-![vmware_9w7bZcFunA.jpg](img/kali_rec_done.jpg)
+![vmware_9w7bZcFunA.jpg](img/kali_rec_done.png)
 
 可以看到经过调整窗口的大小之后就得到了正常的录屏的结果，并且文字也没有重叠被猜测，可能的原因是在全屏的状态下，这个软件没有办法处理分辨率或者什么这种屏幕参数的关系，就导致了这个文字重叠的情况的发生，通过把窗口缩小，然后在窗口模式下进行命令行的输入和处理就可以解决这个问题。
 
