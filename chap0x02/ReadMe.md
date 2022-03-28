@@ -119,7 +119,7 @@ sudo grep -r "666" /tmp/ --exclude "*.cast"
 
 # 文件解压缩
 
-这里的录屏使用的就是，unzip命令来对压缩过程的键进行解压缩。
+这里的录屏使用的就是，unzip命令来对压缩完成的文件进行解压缩。
 
 ```bash
 unzip file.zip
