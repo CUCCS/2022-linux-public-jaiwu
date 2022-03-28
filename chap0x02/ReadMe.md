@@ -8,53 +8,53 @@
 
 首先第1步是要打开这个网站，然后网站的界面就和截图是一样的。
 
-![chrome_AFhxXKQmC8.png](chrome_AFhxXKQmC8.png)
+![chrome_AFhxXKQmC8.png](img/asciinema_login.png)
 
 随后使用邮箱进行注册。
 
-![chrome_YoYGXeKhHy.png](chrome_YoYGXeKhHy.png)
+![chrome_YoYGXeKhHy.png](img/asciinema_email_sent.png)
 
 注册之后会在邮箱收到发送过来的验证码。
 
-![chrome_uJzSrBX6PA.png](chrome_uJzSrBX6PA.png)
+![chrome_uJzSrBX6PA.png](img/email_asciinema.png)
 
 点击它发送过来的链接就可以完成注册。
 
-![chrome_8DKLxlkxLZ.png](chrome_8DKLxlkxLZ.png)
+![chrome_8DKLxlkxLZ.png](img/asciinema_set_username.png)
 
 随后就可以成功进入到用户界面。
 
-![chrome_TiC44OHhci.png](chrome_TiC44OHhci.png)
+![chrome_TiC44OHhci.png](img/asciinema_ready.png)
 
 但是进入到这个用户界面之后会看到说，其实这个时候他说你必须要先确认你的这个录制的工具是已经安装了，但是我们就是并没有安装，所以这个时候需要在虚拟机的系统里面进行这个录制工具的安装，我们点击它的链接进入到它安装的这个教学。
 
-![chrome_O0M5xfam0J.png](chrome_O0M5xfam0J.png)
+![chrome_O0M5xfam0J.png](img/asciinema_installed.png)
 
 进来之后可以看到还有在很多不同的这个系统上的安装的教程，然后我们就选择在Linux系统上进行安装。
 
-![chrome_WtjG64E3lD.png](chrome_WtjG64E3lD.png)
+![chrome_WtjG64E3lD.png](img/asciinema_install_guide.png)
 
 点击这个链接，就会有跳转到具体的安装的命令上。
 
-![chrome_HJ599iwJLy.png](chrome_HJ599iwJLy.png)
+![chrome_HJ599iwJLy.png](img/install_asciinema_linux.png)
 
 然后我们需要在这里选择合适的这个系统，我这边用的是乌邦图，所以我就复制乌邦图的命令。
 
-![chrome_XioLBGxPxZ.png](chrome_XioLBGxPxZ.png)
+![chrome_XioLBGxPxZ.png](img/asciiname_install_ubuntu.png)
 
 也就是我们在虚拟机里面把刚刚复制的命令粘贴之后就会开始自动安装。
 
-![vmware_fc3ek6RgBk.jpg](vmware_fc3ek6RgBk.jpg)
+![vmware_fc3ek6RgBk.jpg](img/ubuntu_add_repository.jpg)
 
 没看到安装的这个过程出错了，我们尝试更新一下源，然后再继续进行。
 
-![vmware_jKsaU50uTK.png](vmware_jKsaU50uTK.png)
+![vmware_jKsaU50uTK.png](img/ubuntu_install_error.png)
 
 更新之后，这个就可以成功安装了，可以看到两台虚拟机都已经成功安装了，并且可以运行这个命令。
 
-![vmware_biJVjlf2uJ.png](vmware_biJVjlf2uJ.png)
+![vmware_biJVjlf2uJ.png](img/ubuntu_install_asciinema_done.png)
 
-![vmware_tU6JhtcURA.png](vmware_tU6JhtcURA.png)
+![vmware_tU6JhtcURA.png](img/kali_install_success.png)
 
 截止到目前这两台我实验要用到的机子上都成功安装了，需要用来录屏的软件，接下来就开始进行实验的部分。
 
@@ -87,15 +87,15 @@ asciinema rec
 
 这里出现了一个问题，就是录制出来的，是存在文字重叠的情况。
 
-![chrome_FFr173DOMw.png](chrome_FFr173DOMw.png)
+![chrome_FFr173DOMw.png](img/asciinema_error.png)
 
 猜测可能是因为，终端窗口是全屏的原因，所以我们可以把窗口缩小之后再试一下。
 
-![vmware_9w7bZcFunA.jpg](vmware_9w7bZcFunA.jpg)
+![vmware_9w7bZcFunA.jpg](img/kali_rec_done.jpg)
 
 可以看到经过调整窗口的大小之后就得到了正常的录屏的结果，并且文字也没有重叠被猜测，可能的原因是在全屏的状态下，这个软件没有办法处理分辨率或者什么这种屏幕参数的关系，就导致了这个文字重叠的情况的发生，通过把窗口缩小，然后在窗口模式下进行命令行的输入和处理就可以解决这个问题。
 
-![chrome_uHyGkvWRyL.png](chrome_uHyGkvWRyL.png)
+![chrome_uHyGkvWRyL.png](img/asciinema_rec_result.png)
 
 [录屏](https://asciinema.org/a/alSGkEbgzEZybxOUiVoq8yy1n)
 
