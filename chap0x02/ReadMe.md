@@ -4,6 +4,17 @@
 
 首先是实验的环境，我的实验环境都是在我本地的虚拟机上面，一个是 Ubuntu 的虚拟机，然后另外一个是Kali（基于Debian）的虚拟机。
 
+
+# 命令对比表格
+|              | Ubuntu             | Kali(Debian)       |
+|--------------|--------------------|--------------------|
+| 安装软件     | sudo apt   install | sudo apt   install |
+| 查看安装路径 | whereis            | whereis            |
+| 卸载软件     | sudo   apt remove  | sudo   apt remove  |
+| 解压软件     | unzip              | unzip              |
+
+
+这里看着似乎一样，因为二者是同一系列的不同发行版，如果用Centos的话就可能用到的是`yum`这类命令了。
 # 注册asciinema
 
 首先第1步是要打开这个网站，然后网站的界面就和截图是一样的。
