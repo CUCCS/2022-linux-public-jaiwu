@@ -2,7 +2,7 @@
 
 # 实验环境
 
-首先是实验的环境，我的实验环境都是在我本地的虚拟机上面，一个是乌邦图的虚拟机，然后另外一个是Kali（基于Debian）的虚拟机。
+首先是实验的环境，我的实验环境都是在我本地的虚拟机上面，一个是 Ubuntu 的虚拟机，然后另外一个是Kali（基于Debian）的虚拟机。
 
 # 注册asciinema
 
@@ -38,7 +38,7 @@
 
 ![chrome_HJ599iwJLy.png](img/install_asciinema_linux.png)
 
-然后我们需要在这里选择合适的这个系统，我这边用的是乌邦图，所以我就复制乌邦图的命令。
+然后我们需要在这里选择合适的这个系统，我这边用的是 Ubuntu ，所以我就复制 Ubuntu 的命令。
 
 ![chrome_XioLBGxPxZ.png](img/asciiname_install_ubuntu.png)
 
@@ -79,7 +79,7 @@ asciinema rec
 
 开始录屏之后进行正常的操作操作之后点击确定或者是按回车就可以把布置的视频上传到网站上。
 
-我们是先在乌邦图进行操作的，所以先录制的就是乌邦图这个系统下面的操作的一个录屏。
+我们是先在 Ubuntu 进行操作的，所以先录制的就是 Ubuntu 这个系统下面的操作的一个录屏。
 
 [录屏](https://asciinema.org/a/gCPuyUSPQJVAb5mPMpbeFoVLL)
 
