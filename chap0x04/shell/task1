@@ -10,7 +10,8 @@ where:
     -d <prefix> <input_filename> : Add prefix to image filename, keeping the original extension name
     -e <suffix> <input_filename> : Add suffix to image filename, keeping the original extension name
     -f <input_filename> : Convert png/svg file to svg file
-use * to represent any series of characters, so as to process images in batch"
+
+Use * to represent any series of characters, so as to process images in batch."
 
 function a() {
   #convert -quality 80 test.jpg test___1.jpg
