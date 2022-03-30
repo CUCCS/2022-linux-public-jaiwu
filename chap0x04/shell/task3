@@ -1,5 +1,15 @@
 #!/bin/bash
 
+
+if [ $1 == "-h" ] || [ $1 == "-help" ]; then
+    echo  "Usage:
+    $(basename "$0") <URL>
+    Run this shell, it will auto-downloadweb_log.tsv.7z, uncompress, and generate report.
+    Make sure 7z installed."
+    exit
+fi
+
+
 wget "https://c4pr1c3.github.io/LinuxSysAdmin/exp/chap0x04/web_log.tsv.7z"
 7z x web_log.tsv.7z
 

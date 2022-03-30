@@ -1,4 +1,12 @@
 #!/bin/bash
+
+if [ $1 == "-h" ] || [ $1 == "-help" ]; then
+    echo  "Usage:
+    $(basename "$0")
+    Run this shell, it will auto-download worldcupplayerinfo.tsv and generate report."
+    exit
+fi
+
 wget "https://c4pr1c3.github.io/LinuxSysAdmin/exp/chap0x04/worldcupplayerinfo.tsv"
 
 echo "Age distribution:"
