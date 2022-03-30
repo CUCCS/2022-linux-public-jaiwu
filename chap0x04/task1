@@ -6,7 +6,7 @@ where:
     -h  show this help text
     -a <input_filename> <output_filename> : Compress jpg file
     -b <dest_width_height> <input_filename> <output_filename> : Lower jpg/png/svg format image resolution, keeping the original aspect ratio
-    -c <watermark_text> <input_filename> <output_filename> Add custom text watermark to image file
+    -c <watermark_text> <input_filename> <output_filename> : Add custom text watermark to image file
     -d <prefix> <input_filename> : Add prefix to image filename, keeping the original extension name
     -e <suffix> <input_filename> : Add suffix to image filename, keeping the original extension name
     -f <input_filename> : Convert png/svg file to svg file
