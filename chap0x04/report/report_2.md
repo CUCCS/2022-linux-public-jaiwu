@@ -5,6 +5,7 @@
 ```shell
 bash task3 /images/ksclogo-medium.gif
 ```
+
 第一个参数是最后一个要求中给定的URL
 
 ## TOP100 hosts
@@ -31,7 +32,7 @@ bash task3 /images/ksclogo-medium.gif
 | www-d4.proxy.aol.com               | 3234  |
 | www-c1.proxy.aol.com               | 3177  |
 | www-c4.proxy.aol.com               | 3134  |
-| intgate.raleigh.ibm.com 3123       |       |
+| intgate.raleigh.ibm.com            | 3123  |
 | www-c6.proxy.aol.com               | 3088  |
 | www-a1.proxy.aol.com               | 3041  |
 | mpngate1.ny.us.ibm.net             | 3011  |
@@ -55,7 +56,7 @@ bash task3 /images/ksclogo-medium.gif
 | 128.217.62.1                       | 1435  |
 | interlock.turner.com               | 1395  |
 | 163.205.1.19                       | 1360  |
-| sgigate.sgi.com 1354               |       |
+| sgigate.sgi.com                    |   1354    |
 | bocagate.bocaraton.ibm.com         | 1336  |
 | piweba2y.prodigy.com               | 1324  |
 | gw3.att.com                        | 1311  |
@@ -69,19 +70,19 @@ bash task3 /images/ksclogo-medium.gif
 | gwa.ericsson.com                   | 1089  |
 | tiber.gsfc.nasa.gov                | 1079  |
 | 128.217.62.2                       | 1054  |
-| bstfirewall.bst.bls.com 1017       |       |
+| bstfirewall.bst.bls.com       |    1017    |
 | 163.206.137.21                     | 1015  |
 | spider.tbe.com                     | 1013  |
 | gatekeeper.us.oracle.com           | 1010  |
 | www-c8.proxy.aol.com               | 995   |
 | whopkins.sso.az.honeywell.com      | 984   |
 | news.dfrc.nasa.gov                 | 966   |
-| 128.159.122.110 949                |       |
-| proxy0.research.att.com 940        |       |
+| 128.159.122.110                 |    949   |
+| proxy0.research.att.com        |   940     |
 | proxy.austin.ibm.com               | 925   |
 | www-c9.proxy.aol.com               | 902   |
 | bbuig150.unisys.com                | 901   |
-| corpgate.nt.com 899                |       |
+| corpgate.nt.com                 |    899   |
 | sahp315.sandia.gov                 | 890   |
 | amdext.amd.com                     | 869   |
 | 128.159.132.56                     | 848   |
@@ -93,7 +94,7 @@ bash task3 /images/ksclogo-medium.gif
 | goose.sms.fi                       | 812   |
 | 128.159.144.83                     | 808   |
 | jericho3.microsoft.com             | 805   |
-| 128.159.111.141 798                |       |
+| 128.159.111.141                |    798    |
 | jericho2.microsoft.com             | 786   |
 | sdn_b6_f02_ip.dny.rockwell.com     | 782   |
 | lamar.d48.lilly.com                | 778   |
@@ -102,11 +103,11 @@ bash task3 /images/ksclogo-medium.gif
 | stortek1.stortek.com               | 771   |
 | 163.205.16.75                      | 762   |
 | mac998.kip.apple.com               | 759   |
-| tia1.eskimo.com 742                |       |
-| www-e1f.gnn.com 733                |       |
+| tia1.eskimo.com            |  742          |
+| www-e1f.gnn.com              |  733        |
 | www-b1.proxy.aol.com               | 718   |
 | reddragon.ksc.nasa.gov             | 715   |
-| 128.159.122.137 711                |       |
+| 128.159.122.137                |  711      |
 | rmcg.cts.com                       | 701   |
 | bambi.te.rl.ac.uk                  | 701   |
 | electron.mcc.com                   | 697   |
@@ -136,7 +137,7 @@ bash task3 /images/ksclogo-medium.gif
 | 198.83.19.44        | 647   |
 | 199.1.50.225        | 641   |
 | 163.205.23.93       | 624   |
-| 139.169.174.102 610 |       |
+| 139.169.174.102  |   610    |
 | 163.205.121.3       | 600   |
 | 140.229.116.37      | 598   |
 | 141.102.82.127      | 591   |
@@ -352,7 +353,6 @@ bash task3 /images/ksclogo-medium.gif
 | /ksc.html/shuttle/missions/missions.html | 4     |
 
 404:
-
 
 | URL                                          | Count |
 |----------------------------------------------|:-----:|
