@@ -91,4 +91,30 @@ echo "hello,world"
 
 ![](img/idea64_set_to_bash.png)
 
+
+
+![](img/idea64_hello_world.png)
+
+然后安装一下老师推荐的这个工具来做图片的处理。
+
+首先到[下载页面](https://imagemagick.org/script/download.php)下载。
+
+我这里选择的是Windows版本。
+
+![](img/chrome_download_magic.png)
+
+用自带的安装程序安装就行。
+
+![](img/idea64_magick_installed.png)
+
 这样一来开发的环境就搭建好了。
+
+
+## 任务一
+
+接下来完成一下任务一。
+
+首先来写一下各个功能的函数。
+
+
+
