@@ -1,3 +1,77 @@
 #!/bin/bash
 
-echo "hello,world"
+usage="$(basename "$0") <a|b|c|d|e|f|h> <input_filename> [output_filename]
+
+where:
+    -h  show this help text
+    -a <input_filename> <output_filename> : Compress jpg file
+    -b <dest_width_height> <input_filename> <output_filename> : Lower jpg/png/svg format image resolution, keeping the original aspect ratio
+    -c <watermark_text> <input_filename> <output_filename> Add custom text watermark to image file
+    -d <prefix> <input_filename> : Add prefix to image filename, keeping the original extension name
+    -e <suffix> <input_filename> : Add suffix to image filename, keeping the original extension name
+    -f <input_filename> : Convert png/svg file to svg file
+use * to represent any series of characters, so as to process images in batch"
+
+function a() {
+  #convert -quality 80 test.jpg test___1.jpg
+  echo $1
+}
+
+while getopts ':habcdef:' option; do
+  case "$option" in
+  h)
+    echo "$usage"
+    exit
+    ;;
+  a)
+    convert ${@/"-a"/"-quality"}
+    exit
+    ;;
+  b)
+    convert ${@/"-b"/"-resize"}
+    exit
+    ;;
+  c)
+    arg=${@#"-c"}
+    text=$2
+    convert -gravity southeast -fill black -pointsize 100 -draw "text 5,5 '$2'" ${arg#"$2"}
+    exit
+    ;;
+
+  d)
+    filename=$(basename $2)
+    filename=${filename%.*}
+    new_filename=${2/$filename/"$3$filename"}
+    convert $2 $new_filename
+    exit
+    ;;
+
+  e)
+    filename=$(basename $2)
+    filename=${filename%.*}
+    new_filename=${2/$filename/"$filename$3"}
+    convert $2 $new_filename
+    exit
+    ;;
+
+  f)
+    filename=$(basename $2)
+    ext=${filename#*.}
+    new_filename=${2/$ext/"svg"}
+    convert $2 $new_filename
+    exit
+    ;;
+
+  :)
+    printf "missing argument for -%s\n" "$OPTARG" >&2
+    echo "$usage" >&2
+    exit 1
+    ;;
+  \?)
+    printf "illegal option: -%s\n" "$OPTARG" >&2
+    echo "$usage" >&2
+    exit 1
+    ;;
+  esac
+done
+shift $((OPTIND - 1))
