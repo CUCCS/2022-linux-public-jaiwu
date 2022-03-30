@@ -1,0 +1,26 @@
+#!/bin/bash
+
+wget "https://c4pr1c3.github.io/LinuxSysAdmin/exp/chap0x04/web_log.tsv.7z"
+7z x web_log.tsv.7z
+
+echo "TOP100 hosts:"
+awk '{print $1}' web_log.tsv | sort | uniq -c | sort -nr | head -n 100 | awk '{printf "%s\t%s\n",$2,$1}'
+
+echo "TOP100 ips:"
+awk 'match($1,/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/){print $1}' web_log.tsv | sort | uniq -c | sort -nr | head -n 100 | awk '{printf "%s\t%s\n",$2,$1}'
+
+echo "TOP100 URLs:"
+awk '{print $5}' web_log.tsv | sort | uniq -c | sort -nr | head -n 100 | awk '{printf "%s\t%s\n",$2,$1}'
+
+echo "HTTP status codes:"
+awk '{print $6}' web_log.tsv | sort | uniq -c | sort -nr  | awk 'BEGIN{sum=0}{if ($1>1){p[$2]=$1;sum+=$1}}END{for (i in p){printf "%-15s%-10s%-10.5f\n",i,p[i],p[i]/sum}}'| sort -n
+
+code_list=`awk '$6 ~ /^4/{print $6}' web_log.tsv | sort | uniq`
+for i in ${code_list[*]}
+do
+echo "$i:" ;
+awk -vc="$i" '$6==c{print $5}' web_log.tsv | sort | uniq -c | sort -nr | head -n 10 | awk '{printf "%s\t%s\n",$2,$1}'
+done
+
+echo "URL:$1 TOP100:"
+awk -vurl="$1" '$5==url{print $1}' web_log.tsv | sort | uniq -c | sort -nr | head -n 10 | awk '{printf "%s\t%s\n",$2,$1}'

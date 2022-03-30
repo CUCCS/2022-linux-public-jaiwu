@@ -109,6 +109,9 @@ echo "hello,world"
 ## 任务2
 
 完成了，见[脚本](shell/task2)和[报告](report/report_1.md)。
+## 任务2
+
+完成了，见[脚本](shell/task3)和[报告](report/report_2.md)。
 
 ## 参考
 
