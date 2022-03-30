@@ -60,3 +60,35 @@
 </ul></li>
 </ul></li>
 </ul>
+
+## 配置开发环境
+
+用 `IDEA` 写代码，用我安装`git bash`时候帮我安装的`bash`调试。
+
+先安装 IDEA 的 BashSupport 插件，要钱，没有，用试用版，可以试用30天。
+
+![](img/idea64_bashsupport.png)
+
+新建一个bash文件试试：
+
+![](img/idea64_create_bash.png)
+
+新建成功，并且很贴心的帮我写好了第一行。
+
+![](img/idea64_new_bash_created.png)
+
+尝试写一段测试代码：
+
+```shell
+#!/bin/bash
+
+echo "hello,world"
+```
+
+然后需要设置一下用来运行的解释器，他自动设置的好像是有点问题的，应该是系统自带的有点问题。
+
+![](img/idea64_edit_run_config.png)
+
+![](img/idea64_set_to_bash.png)
+
+这样一来开发的环境就搭建好了。
