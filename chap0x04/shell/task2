@@ -1,4 +1,6 @@
 #!/bin/bash
+wget "https://c4pr1c3.github.io/LinuxSysAdmin/exp/chap0x04/worldcupplayerinfo.tsv"
+
 echo "Age distribution:"
 awk 'BEGIN{FS="\t";a=0;b=0;c=0;printf "%-15s%-10s%-10s\n","Range","Count","Percentage"}$6~/^[[:digit:]]+/{if($6<20){a++}else if ($6>30){c++}else{b++}}END{printf  "%-15s%-10d%-10.3f\n","20岁以下",a,a/NR;printf  "%-15s%-10d%-10.3f\n","[20-30]",b,b/NR;printf  "%-15s%-10d%-10.3f\n","30岁以上",c,c/NR}' worldcupplayerinfo.tsv
 
