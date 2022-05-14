@@ -1,4 +1,6 @@
 
+![](img/what_happened.png)
+
 # 实验环境
 
 什么都没装的Ubuntu虚拟机
