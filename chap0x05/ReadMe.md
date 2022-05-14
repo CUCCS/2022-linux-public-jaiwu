@@ -413,3 +413,7 @@ curl执行不了js
 7. 自己编译nginx的话可能运行在nginx这个用户下 要在系统添加ngnix用户
 8. wp这个热修复其实最好的办法是升级wp或者装对应插件
 9. 防止sql注入这个可以在正则方面加更多规则 做的更好 参考其他公司的waf 很多是基于规则做的
+
+
+
+ [![GitHub stats](https://github-readme-stats.vercel.app/api?username=CreeseWu)](https://github.com/anuraghazra/github-readme-stats)
